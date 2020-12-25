@@ -72,7 +72,21 @@ export default {
                     deliveryTime: '20-30 мин',
                     cost: '₽₽₽',
                 },
-            ]
+            ],
+            swiperOptions:{
+                breakpoints: {
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    1264: {
+                        slidesPerView: 3,
+                        spaceBetween: 40
+                    },
+                    770: {
+                        slidesPerView: 2,
+                        spaceBetween: 30
+                    },
+                }
+            }
         }
     },
     computed:{
